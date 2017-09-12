@@ -55,7 +55,8 @@
     <components data-name="123"></components>
     ```
   * 加强对vue的理解，避免错误的使用
-      尽量在代码中使用原生js或者jquery操作dom
+
+      尽量不要在代码中使用原生js或者jquery操作dom
       例如：直接使用document.getElementById('id')或者$('#id')等方式获取dom进行操作。可以使用vue中提供ref获取dom节点，进行操作，具体使用方式参考vue官网api
   * 将常量定义在外部，不要定义在data中
       例如：const API_URL = 'xxxx',直接使用即可
