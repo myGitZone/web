@@ -41,6 +41,19 @@
         <TempComponent></TempComponent>
       </div>
     ```
+  * props传值。props定义的时候，如果使用的小驼峰命名，则父组件传值的时候使用“-”进行分割
+    例如：
+    ```
+    // 定义
+    props: {
+      dataName: {
+        type: String
+      }
+    }
+
+    // 使用
+    <components data-name="123"></components>
+    ```
   * 加强对vue的理解，避免错误的使用
       尽量在代码中使用原生js或者jquery操作dom
       例如：直接使用document.getElementById('id')或者$('#id')等方式获取dom进行操作。可以使用vue中提供ref获取dom节点，进行操作，具体使用方式参考vue官网api
