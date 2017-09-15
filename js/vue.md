@@ -13,17 +13,17 @@
     * 如果是私有的则在函数名前加“_”,如 _getName(){}
 # 使用
   * 组件中配置项的顺序
-      props
-      data
-      computed
-      watch
-      created
-      mounted
-      activited
-      update
-      filter
-      metods
-      components
+     * props
+     * data
+     * computed
+     * watch
+     * created
+     * mounted
+     * activited
+     * update
+     * filter
+     * metods
+     * components
   * 组件的引用,引入的组件命名使用首字母大写的形式，因为组件是一个类
     ```javascript
       // 推荐
