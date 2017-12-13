@@ -4,3 +4,4 @@ web开发规范
   - [css](css/通用约定.md)
   - [javascript](js/通用约定.md)
   - [vue](js/vue.md)
+  - [react](js/react.md)
