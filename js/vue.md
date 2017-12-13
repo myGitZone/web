@@ -1,7 +1,7 @@
 # vue开发规范
 ## 命名
   * 文件夹命名
-    * 由名词组成（car、order、cart）
+    * 由名词组成（car、order、car...）
     * 尽量以一个单词命名（推荐: car order cart）（不推荐: carInfo carpage）
     * 以小写开头（good: car）（bad: Car）
   * 组件命名（*.vue）
